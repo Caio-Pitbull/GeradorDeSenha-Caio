@@ -1,0 +1,22 @@
+:root{
+   --branco: white;
+   --corDeFundo: hsl(230, 69%, 14%);
+   --fundoSenha: #00244d;
+   --fundoDeTexto: #001E40;
+   --borda: #0075ff;
+   --BebasNeue: "Bebas Neue";
+   --BarlowCondensed: "Barlow Condensed";
+
+}
+
+
+body{
+    color: var(--branco);
+    background-color: var(--corDeFundo);
+}
+.titulo-principal{
+    font-family: var(--BebasNeue);s
+}
+.titulo-secundario{
+    font-family: var(--BarlowCondensed);
+}
