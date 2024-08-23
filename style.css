@@ -6,17 +6,30 @@
    --borda: #0075ff;
    --BebasNeue: "Bebas Neue";
    --BarlowCondensed: "Barlow Condensed";
-
 }
 
+*{
+    font-weight: 400;
+}
 
 body{
     color: var(--branco);
     background-color: var(--corDeFundo);
 }
 .titulo-principal{
-    font-family: var(--BebasNeue);s
+    font-family: var(--BebasNeue);
 }
 .titulo-secundario{
     font-family: var(--BarlowCondensed);
+}
+
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 88px;
+}
+
+.conteudo-senha{
+    background-color: var(--fundoSenha);
+    padding: 24px;
+    border-bottom: 6px solid var(--borda);
 }
