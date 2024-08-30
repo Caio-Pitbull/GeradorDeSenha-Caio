@@ -32,4 +32,24 @@ body{
     background-color: var(--fundoSenha);
     padding: 24px;
     border-bottom: 6px solid var(--borda);
+    margin-top: 70px;
+}
+
+
+
+#campo-senha{
+    background-color: var(--fundoSenha);
+    border: none;
+    color: var(--branco);
+    font-family: var(--BebasNeue);
+    font-size: 40px;
+    
+}
+#campo-senha:focus{
+    outline: none;
+}
+
+.conteudo{
+    max-width: 12000px;
+    margin: 0 auto;
 }
